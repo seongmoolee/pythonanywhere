@@ -5,6 +5,7 @@
 ```
 pip install django
 django-admin startproject pythonanywhere
+python3 manage.py migrate
 ```
 
 실행

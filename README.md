@@ -9,5 +9,5 @@ django-admin startproject pythonanywhere
 
 실행
 ```
-python manage.py runserver
+python3 manage.py runserver
 ```

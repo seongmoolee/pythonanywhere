@@ -11,7 +11,7 @@ https://docs.djangoproject.com/en/4.1/ref/settings/
 """
 
 # from pathlib import Path
-from ..my_settings import MY_SECRET, MY_DATABASES, MY_ALLOWED_HOSTS
+from my_settings import MY_SECRET, MY_DATABASES, MY_ALLOWED_HOSTS
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 # BASE_DIR = Path(__file__).resolve().parent.parent
@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'my_settings',
 ]
 
 MIDDLEWARE = [
